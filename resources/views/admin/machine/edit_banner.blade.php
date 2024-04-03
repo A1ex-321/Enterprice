@@ -297,18 +297,18 @@
                 localStorage.setItem('image' + uniqueId, e.target.result);
 
                 // Display the image in the div
-                const imgContainer = document.createElement('div');
-                imgContainer.setAttribute('id', 'container' + uniqueId);
-                imgContainer.style.display = 'inline-block';
+                // const imgContainer = document.createElement('div');
+                // imgContainer.setAttribute('id', 'container' + uniqueId);
+                // imgContainer.style.display = 'inline-block';
 
-                const img = document.createElement('img');
-                img.src = e.target.result;
-                img.style.width = '100px';
-                img.style.height = '100px';
-                img.style.margin = '5px';
+                // const img = document.createElement('img');
+                // img.src = e.target.result;
+                // img.style.width = '100px';
+                // img.style.height = '100px';
+                // img.style.margin = '5px';
 
-                imgContainer.appendChild(img);
-                imageDisplay.appendChild(imgContainer);
+                // imgContainer.appendChild(img);
+                // imageDisplay.appendChild(imgContainer);
             };
             reader.readAsDataURL(file);
 
